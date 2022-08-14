@@ -29,7 +29,7 @@ if (isset($_POST) && !empty($_POST)){
 </head>
 
 <body>
-    <?php include('../menu.php')?>
+    <?php include('menu2.php')?>
     <div class="container">
         <?php
         if (isset($error)){

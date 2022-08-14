@@ -25,7 +25,7 @@ if(isset($_GET['id']) && !empty($_GET['id'])) {
    </head>
 
 <body>
-<?php include("../menu.php")?> 
+<?php include("menu2.php")?> 
 <div class="container">
     <h2 class="text-center mt-5"> Agenda pacientes</h2>
 

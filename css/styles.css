@@ -1,0 +1,83 @@
+.contenedor1 {
+width: 100%;
+height: 800px;
+display: flex;
+justify-content: center;
+}
+
+.barra {background: url(../images/fondobarra.jpg);width: 100%; height: 100px;
+    background-attachment: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: x-large;
+}
+
+.piepagina {background: url(../images/fondobarra.jpg); width: 100%; height: 100px;
+    background-attachment: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    align-items: center;
+}
+.contenedor2 {
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    }
+.contenedor2 > div {
+        width: 500px;
+        height: 500px;
+        border: 2px solid blue;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;/* se organicen uno debajo del otro, orientación vertical, cuando se usa este justify content y align items se cruzan */
+        justify-content: center;
+        align-items: center;
+    }
+
+body {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: medium;
+   font-style: italic;
+   color: rgb(49, 44, 44); 
+   background: url(../images/fondobody.jpg);background-size: cover;
+    background-attachment: fixed}
+    
+    h1{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: oblique;
+        color: rgba(0, 0, 255, 0.411);
+    }
+
+      
+    h2{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgba(0, 0, 255, 0.411);
+    }
+      
+    h3{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgba(0, 0, 255, 0.411);
+    }
+    h4{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgba(0, 0, 255, 0.411);
+    }
+    h5{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgb(11, 11, 12);
+    }
+    .contenedor3 {
+        width: 100%;
+        height: 400px;
+        display: flex; 
+        justify-content: space-evenly;
+        align-items: flex-start;
+        }
+        .contenedor3 > div {
+            width: 300px;
+            height: 200px;
+         
+        }

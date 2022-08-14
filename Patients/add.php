@@ -26,10 +26,11 @@ if(isset($_POST) && !empty($_POST)){
     <meta charset="UTF-8" />
     <title>Crear paciente</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 
 <body>
-<?php include("../menu.php")?>
+<?php include("menu2.php")?>
 <div class="container">
 <?php
 if (isset($error)) {
@@ -82,6 +83,8 @@ if (isset($error)) {
 <button class="btn btn-success"> Registrar </button>
 </form>
 </div>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 
 </html>

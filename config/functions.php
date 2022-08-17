@@ -16,6 +16,6 @@ function saveImage($files)
     $file_name = str_replace(' ' , '' , $files['image']['name']);
     $file_tmp = $files ['image']['tmp_name'];
 
-    move_uploaded_file($file_tmp, $_SERVER['DOCUMENT_ROOT'] . getfolderproyect() . '/images/' . $file_name);
+    move_uploaded_file($file_tmp, $_SERVER['DOCUMENT_ROOT']  . '/consultorio/images/' . $file_name);
     return $file_name;
 }   

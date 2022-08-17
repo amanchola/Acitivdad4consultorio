@@ -36,7 +36,7 @@ if(isset($_GET['id']) && !empty($_GET['id'])) {
             echo "<div class='col-6' >";
             echo " <div class='border border-info p-2'> ";
             echo "<h5>
-            <img src'".ROOT."/images/$patient->image' width='50' height='50' />
+            <img src='/consultorio/images/$patient->image' width='50' height='50' />
             $patient->firstName $patient->lastName
             </h5>";
             echo " <p> <b>Fecha:</b> ".date("D", strtotime($input)) . " " . date("d-M-Y H:i", strtotime($input)). "</p>";

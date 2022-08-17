@@ -26,11 +26,32 @@ if(isset($_POST) && !empty($_POST)){
     <meta charset="UTF-8" />
     <title>Crear paciente</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
-<?php include("menu2.php")?>
+
+
+
+<nav class="navbar navbar-expand navbar-light bg-light barra">
+    <a href="#"><img src="../images/logo diplomado.png" alt="logo" width="130px"></a>
+
+   
+    <ul class ="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="../index.php"> Inicio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"  href="../quienes.php">Quién Soy</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"  href="../servicios.php">Servicios</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"  href="add.php">Contáctanos</a>
+        </li>
+    </ul>
+</nav>
 <div class="container">
 <?php
 if (isset($error)) {
